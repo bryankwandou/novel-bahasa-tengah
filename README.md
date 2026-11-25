@@ -1,5 +1,7 @@
 # novel-bahasa-tengah
 
+Situs: https://bahasa-tengah.vercel.app (pemeriksa bab langsung di browser).
+
 Skill Claude Code untuk menulis dan menulis ulang novel berbahasa Indonesia dalam **bahasa tengah**: tidak baku kaku,
 tidak gaul. Bahasanya seperti novel populer yang rapi, mudah dipahami pembaca dari daerah mana pun.
 
