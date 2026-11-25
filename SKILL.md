@@ -38,6 +38,8 @@ Seperti novel populer yang rapi: kosakata sehari-hari yang dipahami pembaca dari
 
 Dialog: santai tetapi bersih. "Kamu sudah makan?" "Jangan begitu." "Aku tidak tahu."
 
+Daftar padanan lengkap dan checklist narasi: references/pilihan-kata-literer.md dan references/checklist-narasi.md (tanda (K) = terlalu kaku untuk register ini).
+
 ## 2. Kalimat (masalah kurator: potongan pendek, hubungan tidak jelas)
 
 - Gabungkan potongan berurutan dengan penghubung: karena, sehingga, sementara, ketika, lalu, tetapi, padahal.
@@ -75,3 +77,23 @@ Gambar lama dipertahankan. Harga: bab 1 sampai 15 Gratis, 16+ Rp 3.000.
 
 Format auditor: Kekuatan (2 sampai 4) → Saran (sebelum → sesudah + alasan) → Nilai 1 sampai 10 + alasan.
 9-10 rapi dan siap terbit; 7-8 sisa sedikit kata lisan; 5-6 masih lisan; 3-4 banyak salah; 1-2 sulit dibaca.
+Checklist A sampai F dan contoh audit sinopsis Garam dan Mesiu: references/checklist-narasi.md. Komentar selalu dalam
+bahasa Indonesia.
+
+## 7. Kurasi naskah utuh (bila diminta)
+
+Diadaptasi dari ns-manuscript-evaluator (leemain88/novel-skills, MIT). Beri nilai 1 sampai 10 untuk enam pilar, masing-masing
+dengan bukti dari bab dan adegan nyata: struktur cerita, kedalaman tokoh, tempo, dampak emosi, kekhasan suara, orisinalitas.
+Tambahkan pilar ketujuh yang dinilai kurator Indonesia: bahasa (register, kelancaran kalimat, PUEBI). Tutup dengan tiga
+kekuatan untuk sinopsis dan tiga bagian yang perlu dipoles. Nilai jujur; jangan menaikkan angka karena diminta.
+
+Kurator membaca sinopsis dengan suara keras. Sinopsis harus enak diucapkan: nama tokoh yang sulit dilafalkan
+(kurator tersandung "Noémie Castel", "Julien") cukup ditulis sekali dengan ejaan asli, lalu dipakai konsisten.
+
+## 8. Sumber
+
+lugas (bryankwandou/lugas), auditor-bahasa-novel-indonesia (dari pengguna), leemain88/novel-skills (MIT, pilar kurasi),
+prodhokter/dataset-kbbi-indonesia (MIT, dipakai sebagian setelah diverifikasi: data/baku-terpilih.csv). Pembanding yang
+dibaca: alvinindra/bahasa-skills, fathurwithyou/indonesia-eyd-writing-skill, barkahss/simple-indonesia,
+nozomicreative/lancar-indonesia. Tidak satu pun menangani ragam cakapan fiksi (sama, pas, terus, nyopotnya); aturan itu
+ditulis sendiri di §1.

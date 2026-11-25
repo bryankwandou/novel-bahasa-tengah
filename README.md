@@ -9,6 +9,8 @@ Dibuat dari dua penilaian kurator atas novel penulis sendiri (1/10 dan 3/10) dan
 - `SKILL.md`: register, daftar kata yang dihindari dan penggantinya, aturan kalimat, alur kerja per bab.
 - `scripts/cek.py`: pemeriksa bab. Menandai kata lisan, kata kaku, "telah" berulang, penghubung lisan yang menumpuk,
   tanda pisah panjang, frasa khas tulisan mesin, dan bab di bawah batas kata.
+- `references/`: daftar pilihan kata literer dan checklist narasi (dari skill auditor-bahasa-novel-indonesia).
+- `data/baku-terpilih.csv`: ejaan baku yang sudah diverifikasi.
 - `TEMUAN.md`: catatan temuan yang mengubah aturan. Diperbarui setiap ada temuan baru.
 
 ## Pasang
