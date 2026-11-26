@@ -97,3 +97,6 @@ prodhokter/dataset-kbbi-indonesia (MIT, dipakai sebagian setelah diverifikasi: d
 dibaca: alvinindra/bahasa-skills, fathurwithyou/indonesia-eyd-writing-skill, barkahss/simple-indonesia,
 nozomicreative/lancar-indonesia. Tidak satu pun menangani ragam cakapan fiksi (sama, pas, terus, nyopotnya); aturan itu
 ditulis sendiri di §1.
+Ditambahkan 2026-11-26: RamaAditya49/tutur (tutur-humanizer: register baku-santai, bukan gaul, bukan birokratis),
+pataanggs/indonesian-writing-skills (frasa-terlarang.md: "hiruk pikuk", paralelisme negatif, klausa ekor, kosakata slop;
+dipakai sebagai pola SLOP di cek.py), ardianryan/eyd-v (EYD V terstruktur, rujukan ejaan).

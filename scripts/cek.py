@@ -38,6 +38,7 @@ for _l in (_csv.read_text(encoding="utf-8").splitlines()[1:] if _csv.exists() el
     if _a != _b: BAKU[_a] = _b
 TANAH_LIAT = re.compile(r"\btanah\s+liat\w*", re.I)
 
+SLOP_ID = re.compile(r"hiruk.?pikuk|lebih dari sekadar|menyelami|bersemayam|tak pelak|tak ayal|\bdimana\b|seiring berjalannya waktu|tidak dapat dipungkiri|saksi bisu|beresonansi|menggantung di udara", re.I)
 bad = tot = n = 0
 for f in sorted(B.glob("[0-9]*.txt")):
     i = int(f.stem)
@@ -60,6 +61,9 @@ for f in sorted(B.glob("[0-9]*.txt")):
     if bk: p.append(f"EJAAN {len(bk)} {sorted(set(x + '>' + BAKU[x] for x in bk))[:6]}")
     if ASING and (m := LOKAL.findall(s)): p.append(f"LOKAL {len(m)} {sorted(set(m))[:6]}")
     if telah > 8: p.append(f"TELAH {telah}")
+    narr = re.sub(r'"[^"]*"', '""', body)
+    if m := re.findall(r"bilang", narr, re.I): p.append(f"BILANG-NARASI {len(m)} (di luar dialog pakai berkata)")
+    if m := SLOP_ID.findall(body): p.append(f"SLOP {sorted(set(x.lower() for x in m))[:5]}")
     ph = PENGHUBUNG.findall(body)
     if len(ph) > 25: p.append(f"PENGHUBUNG {len(ph)} (cek sama/pas/terus/tapi)")
     if p:

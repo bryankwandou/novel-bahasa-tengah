@@ -31,3 +31,6 @@ Catatan yang mengubah aturan skill. Yang terbaru di atas.
 - Drive tujuan bisa penuh (0 byte). Menimpa file saat disk penuh berisiko rusak; tulis di drive lain dulu.
 
 - 2026-11-26: rungantiisi.sh GAGAL di bab gratis karena cek "Paket Dukungan" hanya muncul di bab berbayar. Cek diganti ke "Judul".
+- 2026-11-26: "bilang" lolos di narasi (Garam 37x, Ubin 10x) karena cek.py lama hanya menghitung bilang secara umum. Kini BILANG-NARASI menandai bilang di luar tanda kutip; perbaikan: berkata.
+- 2026-11-26: pola slop dari pataanggs/indonesian-writing-skills (hiruk pikuk, lebih dari sekadar, menyelami, dimana) dipindai: 0 di kedua novel. Ditambahkan sebagai SLOP.
+- 2026-11-26: KaryaKarsa lambat (17 dtk halaman depan) membuat terbit.js gagal di jeda 9 dtk; kini menunggu slug sampai 45 dtk.
