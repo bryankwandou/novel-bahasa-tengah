@@ -62,6 +62,8 @@ for f in sorted(B.glob("[0-9]*.txt")):
     if ASING and (m := LOKAL.findall(s)): p.append(f"LOKAL {len(m)} {sorted(set(m))[:6]}")
     if telah > 8: p.append(f"TELAH {telah}")
     narr = re.sub(r'"[^"]*"', '""', body)
+    dial = " ".join(re.findall(r'"([^"]*)"', body))
+    if m := re.findall(r"(mengapa|apakah)", dial, re.I): p.append(f"DIALOG-KAKU {len(m)} (kenapa; buang apakah)")
     if m := re.findall(r"bilang", narr, re.I): p.append(f"BILANG-NARASI {len(m)} (di luar dialog pakai berkata)")
     if m := SLOP_ID.findall(body): p.append(f"SLOP {sorted(set(x.lower() for x in m))[:5]}")
     ph = PENGHUBUNG.findall(body)

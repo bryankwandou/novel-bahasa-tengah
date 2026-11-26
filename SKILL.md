@@ -37,6 +37,8 @@ Seperti novel populer yang rapi: kosakata sehari-hari yang dipahami pembaca dari
 | sih, dong, deh, kok, nih, tuh | buang; "kan", "ya", "tak" boleh di dialog |
 
 Dialog: santai tetapi bersih. "Kamu sudah makan?" "Jangan begitu." "Aku tidak tahu."
+Di dialog pakai "kenapa", bukan "mengapa"; buang "Apakah" di awal pertanyaan ("Dia pernah ke sini?"). "Saya/Anda" hanya
+kepada orang yang dihormati atau asing (Senhora, polisi, dokter). Data 29 novel populer: references/riset-29-novel.md.
 
 Daftar padanan lengkap dan checklist narasi: references/pilihan-kata-literer.md dan references/checklist-narasi.md (tanda (K) = terlalu kaku untuk register ini).
 
