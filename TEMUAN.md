@@ -29,3 +29,5 @@ Catatan yang mengubah aturan skill. Yang terbaru di atas.
 - Agen latar yang menulis ulang 10 bab sekaligus berhenti di tengah karena batas pemakaian, meninggalkan draf di
   scratchpad. Cek dan salin draf (lint dulu, lalu `cmp`) sebelum menulis ulang dari nol.
 - Drive tujuan bisa penuh (0 byte). Menimpa file saat disk penuh berisiko rusak; tulis di drive lain dulu.
+
+- 2026-11-26: rungantiisi.sh GAGAL di bab gratis karena cek "Paket Dukungan" hanya muncul di bab berbayar. Cek diganti ke "Judul".
