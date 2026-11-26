@@ -34,3 +34,4 @@ Catatan yang mengubah aturan skill. Yang terbaru di atas.
 - 2026-11-26: "bilang" lolos di narasi (Garam 37x, Ubin 10x) karena cek.py lama hanya menghitung bilang secara umum. Kini BILANG-NARASI menandai bilang di luar tanda kutip; perbaikan: berkata.
 - 2026-11-26: pola slop dari pataanggs/indonesian-writing-skills (hiruk pikuk, lebih dari sekadar, menyelami, dimana) dipindai: 0 di kedua novel. Ditambahkan sebagai SLOP.
 - 2026-11-26: KaryaKarsa lambat (17 dtk halaman depan) membuat terbit.js gagal di jeda 9 dtk; kini menunggu slug sampai 45 dtk.
+- 2026-11-26: riset 29 novel populer (25 Wattpad teratas + 4 penulis KaryaKarsa). Median kata lisan di narasi 5,1 per 1.000 kata; versi lama kita 45 dan 51. Klaim kurator benar. Dialog novel populer jauh lebih lisan (median 92,5), jadi dialog boleh lebih santai daripada narasi. Detail: references/riset-29-novel.md.
